@@ -27,9 +27,10 @@ int main()
                 r = a * b;
                 break;
             default:
-                printf("Wrong Choice");
+                printf("Wrong Choice!\n");
             }
-            printf("Result: %d\n", r);
+            if(d == 1 || d == 2 || d == 3)
+                printf("Result: %d\n", r);
             break;
         case 2:
             printf("Enter 2 nos.: \n");
@@ -45,15 +46,16 @@ int main()
                 r = a | b;
                 break;
             default:
-                printf("Wrong Choice");
+                printf("Wrong Choice!\n");
             }
-            printf("Result: %d\n", r);
+            if(d == 1 || d == 2 )
+                printf("Result: %d\n", r);
             break;
         case 3:
             printf("End of Program");
             exit(0);
         default:
-            printf("Wrong Choice!");
+            printf("Wrong Choice!\n");
         }
     }
     return 0;
