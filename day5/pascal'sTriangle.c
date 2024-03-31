@@ -3,7 +3,7 @@
 int main()
 {
     int n, t=1, i, j, k;
-    printf("Enter no. lines: \n");
+    printf("Enter no. of lines: \n");
     scanf("%d", &n);
     for(i=0; i<n; i++)
     {
