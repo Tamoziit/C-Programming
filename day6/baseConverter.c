@@ -8,9 +8,10 @@ int any_to_decimal(int n, int b1)
     if(n>0)
     {
         int d=n%10;
-        if(d>b1-1)
+        if(d>=b1)
         {
-            return -1;
+            printf("Invalid No.\n");
+            exit(0);
         }
         r=r+d*pow(b1, i++);
         any_to_decimal(n/10, b1);
@@ -45,11 +46,6 @@ int main()
         exit(0);
     }
     int x = any_to_decimal(n, b1);
-    if(x == -1)
-    {
-        printf("Invalid No.\n");
-        exit(0);
-    }
     printf("Equivalent decimal = %d\n", x);
     int y = decimal_to_any(x, b2);
     printf("Equivalent no. in base %d = %d\n", b2, y);
