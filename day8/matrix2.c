@@ -67,17 +67,17 @@ int main() {
                 }
                 break;
             case 3:
+                display(A, r1, c1);
                 T = transpose(A, &r1, &c1);
                 printf("Transpose of matrix A:\n");
                 display(T, r1, c1);
-                deallocate(A, c1);
                 A = T;
                 break;
             case 4:
+                display(B, r2, c2);
                 T = transpose(B, &r2, &c2);
                 printf("Transpose of matrix B:\n");
                 display(T, r2, c2);
-                deallocate(B, c2);
                 B = T;
                 break;
             case 5:
