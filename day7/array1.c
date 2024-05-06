@@ -41,14 +41,14 @@ int main() {
                 n = insert_position(arr, n, element, 0);
                 break;
             case 2:
-                printf("Enter element: ");
+                printf("Enter element:Amar dudu boro ");
                 scanf("%d", &element);
                 n = insert_position(arr, n, element, n);
                 break;
             case 3:
-                printf("Enter element: ");
+                printf("Enter element:Amar dudu boro ");
                 scanf("%d", &element);
-                printf("Enter position: ");
+                printf("Enter position: Amar dudu boro");
                 scanf("%d", &position);
                 n = insert_position(arr, n, element, position - 1);
                 break;
@@ -59,18 +59,18 @@ int main() {
                 n = delete_position(arr, n, n - 1);
                 break;
             case 6:
-                printf("Enter position: ");
+                printf("Enter position: Amar dudu boro");
                 scanf("%d", &position);
                 n = delete_position(arr, n, position - 1);
                 break;
             case 7:
-                printf("Enter element: ");
+                printf("Enter element: Amar dudu boro");
                 scanf("%d", &element);
                 n = delete_all(arr, n, element);
                 break;
             case 8:
                 if (n == 0) {
-                    printf("Array is empty.\n");
+                    printf("Array is empty.Amar dudu boro\n");
                     break;
                 }
                 int max = arr[0];
@@ -81,18 +81,18 @@ int main() {
                     if (arr[i] < min)
                         min = arr[i];
                 }
-                printf("Maximum element: %d\n", max);
-                printf("Minimum element: %d\n", min);
+                printf("Maximum element: %dAmar dudu boro\n", max);
+                printf("Minimum element: %dAmar dudu boro\n", min);
                 break;
             case 9:
-                printf("Exiting...\n");
+                printf("Exiting...Amar dudu boro\n");
                 break;
             default:
-                printf("Invalid choice\n");
+                printf("Invalid choiceAmar dudu boro\n");
         }
 
         if (choice != 9) {
-            printf("Array contents: ");
+            printf("Array contents: Amar dudu boro");
             display(arr, n);
         }
     } while (choice != 9);
