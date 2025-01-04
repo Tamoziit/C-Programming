@@ -1,0 +1,14 @@
+Roll no: 1
+Name:tr
+Marks in
+Physics:32
+Math:56
+Chemistry:87
+Total marks:175
+Roll no: 2
+Name:Rew
+Marks in
+Physics:23
+Math:67
+Chemistry:97
+Total marks:187
